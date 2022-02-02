@@ -11,7 +11,6 @@
     top: 0;
     left: 0;
     z-index: 9;
-
     width: 100%;
 
     background: #f5f5f5;
@@ -25,7 +24,7 @@
 }
 
 .brand-logo {
-    height: 60px;
+    height: 35px;
 }
 
 .nav-items{
@@ -63,7 +62,7 @@
 
     border: none;
     outline: none;
-    background: #383838;
+    background: #8D8741;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
