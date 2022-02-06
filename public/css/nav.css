@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: 'roboto', sans-serif;
+    font-family: 'Mukta', sans-serif;
 }
 
 .navbar {
@@ -13,12 +13,11 @@
     z-index: 9;
     width: 100%;
 
-    background: #f5f5f5;
+    background: var(--color-seashell);
 }
 
 .nav {
     padding: 10px 10vw;
-
     display: flex;
     justify-content: space-between;
 }
@@ -56,13 +55,13 @@
     height: 40px;
     padding: 10px 20px;
     
-    color: #fff;
+    color: var(--color-seashell);
     text-transform: capitalize;
     font-size: 15px;
 
     border: none;
     outline: none;
-    background: #8D8741;
+    background:var(--color-steelteal);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
@@ -99,7 +98,7 @@
 
     text-transform: capitalize;
     text-decoration: none;
-    color: #383838;
+    color: var(--color-steelteal);
     opacity: 0.5;
 
     transition: 0.5s;
