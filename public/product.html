@@ -4,140 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hanadi - Online Store</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Great+Vibes&family=Mukta&family=Source+Sans+Pro&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/home.css" />
-  </head>
+    <title>Product -</title>
 
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
   <body>
     <nav class="navbar"></nav>
-    <header class="hero-section">
-      <div class="content">
-        <img class="logo" src="img/HanadiLogo.svg" alt="" />
-        <h2 class="subheading">Unlimited Style</h2>
+
+    <section class="product-details">
+      <div class="image-slider">
+        <div class="product-images">
+          <img src="img/product1-1.jpg" class="active" alt="" />
+          <img src="img/product1-2.jpg" alt="" />
+          <img src="img/product1-3.jpg" alt="" />
+          <img src="img/product1-4.jpg" alt="" />
+          <img src="img/product1-5.jpg" alt="" />
+          <img src="img/product1-6.jpg" alt="" />
+        </div>
       </div>
-    </header>
-    <section class="products">
-      <h2 class="product-category">Limited Offers</h2>
-      <button class="pre-btn">
-        <img src="img/chevron-right.svg" alt="" />
-      </button>
-      <button class="nxt-btn">
-        <img src="img/chevron-right.svg" alt="" />
-      </button>
-      <div class="product-container">
-        <div class="product-card">
-          <div class="product-img">
-            <span class="discount-tag">50% off</span>
-            <img src="img/product1.jpg" alt="" class="product-thumb" />
-            <button class="card-btn">Add to wishlist</button>
-          </div>
-          <div class="product-info">
-            <h3 class="product-type">Shoes</h3>
-            <p class="product-desc">Square Toe Knee-High Boots...</p>
-            <span class="price">$50</span>
-            <span class="actual-price">$100</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-img">
-            <span class="discount-tag">50% off</span>
-            <img src="img/product2.jpg" alt="" class="product-thumb" />
-            <button class="card-btn">Add to wishlist</button>
-          </div>
-          <div class="product-info">
-            <h3 class="product-type">Top</h3>
-            <p class="product-desc">Ruffled blouse...</p>
-            <span class="price">$20</span>
-            <span class="actual-price">$40</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-img">
-            <span class="discount-tag">50% off</span>
-            <img src="img/product3.jpg" alt="" class="product-thumb" />
-            <button class="card-btn">Add to wishlist</button>
-          </div>
-          <div class="product-info">
-            <h3 class="product-type">Jacket</h3>
-            <p class="product-desc">Wooven plaid jacket...</p>
-            <span class="price">$35</span>
-            <span class="actual-price">$70</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-img">
-            <span class="discount-tag">50% off</span>
-            <img src="img/product4.jpg" alt="" class="product-thumb" />
-            <button class="card-btn">Add to wishlist</button>
-          </div>
-          <div class="product-info">
-            <h3 class="product-type">Jeans</h3>
-            <p class="product-desc">Grey baggy Jeans...</p>
-            <span class="price">$50</span>
-            <span class="actual-price">$100</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-img">
-            <span class="discount-tag">50% off</span>
-            <img src="img/product5.jpg" alt="" class="product-thumb" />
-            <button class="card-btn">Add to wishlist</button>
-          </div>
-          <div class="product-info">
-            <h3 class="product-type">Jeans</h3>
-            <p class="product-desc">Lightwash baggy jeans...</p>
-            <span class="price">$70</span>
-            <span class="actual-price">$140</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-img">
-            <span class="discount-tag">50% off</span>
-            <img src="img/product6.jpg" alt="" class="product-thumb" />
-            <button class="card-btn">Add to wishlist</button>
-          </div>
-          <div class="product-info">
-            <h3 class="product-type">Shirt</h3>
-            <p class="product-desc">White see-through shirt...</p>
-            <span class="price">$25</span>
-            <span class="actual-price">$50</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-img">
-            <span class="discount-tag">50% off</span>
-            <img src="img/product7.jpg" alt="" class="product-thumb" />
-            <button class="card-btn">Add to wishlist</button>
-          </div>
-          <div class="product-info">
-            <h3 class="product-type">Dress</h3>
-            <p class="product-desc">Baige ruffled dress...</p>
-            <span class="price">$120</span>
-            <span class="actual-price">$240</span>
-          </div>
-        </div>
+      <div class="details">
+        <h3 class="product-type">Boots</h3>
+        <p class="product-short-desc">Square Toe Side Zip Knee-High Boots</p>
+        <span class="product-price">$50</span>
+        <span class="actual-price">$100</span>
+        <span class="product-discount">( 50% off )</span>
+
+        <p class="product-size">Select size</p>
+
+        <input type="radio" name="size" value="xs" hidden id="xs-size"/>
+        <label for="xs-size" class="size-radio-btn">xs</label>
+
+        <input type="radio" name="size" value="s" hidden id="s-size" />
+        <label for="s-size" class="size-radio-btn">s</label>
+
+        <input type="radio" name="size" value="m" hidden id="m-size" />
+        <label for="m-size" class="size-radio-btn">m</label>
+
+        <input type="radio" name="size" value="l" hidden id="l-size" />
+        <label for="l-size" class="size-radio-btn">l</label>
+
+        <input type="radio" name="size" value="xl" hidden id="xl-size" />
+        <label for="xl-size" class="size-radio-btn">xl</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn wish-btn">add to wishlist</button>
       </div>
     </section>
 
-    <section class="collection-container">
-      <a href="#" class="collection">
-        <img src="img/new.jpg" alt="" />
-        <h2 class="collection-title">New<br />Arrivals</h2>
-      </a>
-      <a href="#" class="collection">
-        <img src="img/best.jpg" alt="" />
-        <h2 class="collection-title">Best<br />Sellers</h2>
-      </a>
-      <a href="#" class="collection">
-        <img src="img/basics.jpg" alt="" />
-        <h2 class="collection-title">Basic<br />Pieces</h2>
-      </a>
+    <section class="detail-desc">
+      <h2 class="heading">Description</h2>
+      <p class="desc">
+        Color: Black, Ivory, Mint <br />
+        Sizing: 230-250 <br />
+        Material: (Shell) Synthetic Leather, (Lining) Synthetic Leather, (Sole)
+        100% Rubber
+      </p>
     </section>
 
     <section class="products">
@@ -346,11 +268,11 @@
       </div>
     </section>
 
-    <footer>
-    </footer>
+    <footer></footer>
 
     <script src="js/nav.js"></script>
     <script src="js/home.js"></script>
+    <script src="js/product.js"></script>
     <script src="js/footer.js"></script>
   </body>
 </html>

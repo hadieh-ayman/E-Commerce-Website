@@ -1,0 +1,20 @@
+.not-found-image {
+    display: block;
+    margin: 20px auto 0;
+    width: 60vw;
+}
+
+.not-found-msg {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 300px;
+    margin-bottom: 50px;
+}
+
+.not-found-msg a{
+    color: #000000;
+}
+
+.not-found-msg a:hover{
+    color: var(--color-melon);
+}
